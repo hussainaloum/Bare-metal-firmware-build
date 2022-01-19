@@ -60,3 +60,20 @@ Open VS Code and install the following extensions: "C/C++" and "Cortex-Debug"
 All the required files are in the src folder.  
 
 ## 4- Debug and flash  
+This section will show how to build, flash and debug the code.  
+Notes:  
+1-  To see how the MCU gets flashed and how debugging starts look at launch.json in the .vscode folder  
+
+Open VS Code and go the TERMINAL section, press drop the down button and add Ubuntu.  
+![step4-1](https://user-images.githubusercontent.com/36559536/150233244-64b1b86a-5735-4340-b8fa-59d27d424ae6.JPG)  
+
+To build navigate to the src folder in the nRF52833 folder and type the following command  
+`make semihosting`
+
+![step4-2](https://user-images.githubusercontent.com/36559536/150233635-a1a661e5-bbfc-4906-b696-8762e2e76b13.JPG)
+
+To flash and debug, all you have to do is select main.c, go to the "run and debug" tab and hit the play button  
+![step4-3](https://user-images.githubusercontent.com/36559536/150233936-ace4eff4-eb31-4289-87b7-3a320d2c1ddb.JPG)  
+
+Now you can step through the code and you should see the output of printf() in the "DEBUG CONSOLE"  
+![step4-4](https://user-images.githubusercontent.com/36559536/150234340-8840aa6e-852e-46c7-917c-bcf3ebaeb1ee.JPG)
