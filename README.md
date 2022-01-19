@@ -57,4 +57,6 @@ Download VS Code from the link https://code.visualstudio.com/download
 Open VS Code and install the following extensions: "C/C++" and "Cortex-Debug"  
 
 ## 3- Code 
+All the required files are in the src folder.  
+
 ## 4- Debug and flash  
